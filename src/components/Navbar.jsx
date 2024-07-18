@@ -4,10 +4,20 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { shin, logo, menu, close } from "../assets";
 
+/***************************************
+ *          NAV BAR COMPONENT          *
+ * The landing page is split in half
+ * One side is for the login
+ * And the otherside is for the image carousel
+ ***************************************/
+
 const Navbar = () => {
   const [active, setActive] = useState("'");
   const [toggle, setToggle] = useState(false);
   return (
+    /***************************************
+     *             NAV BAR SETUP           *
+     ***************************************/
     <nav
       className={`${styles.paddingX} 
       w-full 
@@ -19,6 +29,9 @@ const Navbar = () => {
       z-20
       bg-primary`}
     >
+      {/****************************************
+       *            NAV BAR CONTENT            *
+       ****************************************/}
       <div
         className="w-full 
         flex 
@@ -27,6 +40,9 @@ const Navbar = () => {
         max-w-7xl
         mx-auto"
       >
+        {/****************************************
+         *         LOGO / NAME / DESCRIP.        *
+         ****************************************/}
         <Link
           to="/"
           className="flex items-center gap-2"
@@ -44,12 +60,16 @@ const Navbar = () => {
             className="text-white 
             text-[18px] 
             font-bold
-            cursor-pointer"
+            cursor-pointer flex"
           >
-            Misty Dela Cruz
-            <span className="sm:block hidden">| Web Developer & Designer</span>
+            Misty Dela Cruz &nbsp;
+            <span className="sm:block hidden">| Web Dev. & Designer</span>
           </p>
         </Link>
+
+        {/****************************************
+         *             OTHER NAV LINKS           *
+         ****************************************/}
         <ul
           className="list-none
           hidden
@@ -73,6 +93,9 @@ const Navbar = () => {
           ))}
         </ul>
 
+        {/****************************************
+         *      MOBILE NAV MENU TOGGLE ICON      *
+         ****************************************/}
         <div
           className="sm:hidden 
         flex 
@@ -81,7 +104,7 @@ const Navbar = () => {
         items-center"
         >
           <img
-            src={toggle ? close : menu}
+            src={toggle ? close : menu} // siodfjisdj
             alt="menu"
             className="w-[28px]
           h-[28px]
@@ -100,7 +123,37 @@ const Navbar = () => {
           min-w-[140px] 
           z-10 
           rounded-xl`}
-          ></div>
+          >
+            {/****************************************
+             *         MOBILE NAV MENU LINKS         *
+             ****************************************/}
+            <ul
+              className="list-none
+          flex
+          justify-end
+          items-start
+          flex-col
+          gap-4"
+            >
+              {navLinks.map((Link) => (
+                <li
+                  key={Link.id}
+                  className={`${
+                    active === Link.title ? "text-white" : "text-secondary"
+                  } font-poppins
+                  font-medium
+                  cursor-pointer
+                  text-[16px]`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive(Link.title);
+                  }}
+                >
+                  <a href={`#${Link.id}`}>{Link.title}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
