@@ -62,14 +62,14 @@ const Hero = () => {
         <div>
           <h1
             className={`${styles.heroHeadText}
-            text-[#fdba74]`}
+            text-[#fb923c]`}
           >
             Hello! I'm
             <span
               className="
             text-[#8d0133]"
             >
-              &nbsp; Misty Dela Cruz
+              &nbsp; Misty
             </span>
           </h1>
           <p
@@ -77,11 +77,11 @@ const Hero = () => {
           mt-2
           text-black`}
           >
-            I am a front-end developer,
+            I am a front-end developer
             <br className="sm:block hidden" />
             working with user interfaces,
             <br className="sm:block hidden" />
-            design, and web applications.
+            web design, and web applications.
           </p>
         </div>
       </div>
