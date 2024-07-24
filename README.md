@@ -1,5 +1,8 @@
 # Misty's 3D Portfolio 🤓
 
+![image](https://github.com/user-attachments/assets/7b80340c-2792-4b74-940b-5ac0641fa624)
+
+
 ## Overview
 This project is my engineering portfolio which showcases all of my works, skills, and contact information with an added bonus of 3D elements to wrap it all up. I used React + Vite, TailWindCSS, and watched [JavaScript Mastery](https://youtu.be/0fYi8SGA20k?si=-yczXu4qSn2Av2Sx&t=2811) to jumpstart the basic structure of my website with a beginner guide/tutorial into 3.js and React Fiber. 
  
