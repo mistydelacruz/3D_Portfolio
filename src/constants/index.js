@@ -57,6 +57,10 @@ const services = [
     title: "Content Creator",
     icon: creator,
   },
+  // {
+  //   title: "Designer",
+  //   icon: figma,
+  // },
 ];
 
 const technologies = [
