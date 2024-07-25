@@ -20,7 +20,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "custom-gradient": "linear-gradient(to bottom, #fe8251, transparent)", // CUSTOM GRADIENT 
+        "custom-gradient": "linear-gradient(to bottom, #fe8251, transparent)", // CUSTOM GRADIENT
         "hero-pattern": "url('/src/assets/sunset.png')",
       },
     },

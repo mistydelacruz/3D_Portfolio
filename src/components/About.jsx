@@ -35,7 +35,7 @@ const ServiceCard = ({ index, title, icon }) => {
           px-12
           min-h-[280px]"
           >
-            <p>hello</p>
+            <p>hello world!</p>
           </div>
         </motion.div>
       </Tilt>
