@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { Canvas } from "@react-three/fiber";
 
 const Hero = () => {
   return (
@@ -65,10 +64,9 @@ const Hero = () => {
            *            SHORT DESCRIPTION          *
            ****************************************/}
           <div>
-            {/* text-[#fb923c] */}
             <h1
               className={`${styles.heroHeadText}
-             text-neutral-900`}
+             text-[black]`}
             >
               Hello! I'm
               <span

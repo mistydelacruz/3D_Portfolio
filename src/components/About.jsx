@@ -4,8 +4,12 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { max } from "three/examples/jsm/nodes/Nodes.js";
 
+{
+  /****************************************
+   *         SKILL CARDS THAT TILTS       *
+   ****************************************/
+}
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <>
@@ -15,27 +19,45 @@ const ServiceCard = ({ index, title, icon }) => {
     w-full"
       >
         <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="
+          variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+          className="
         w-full
         bg-gradient-to-r from-blue-200 to-cyan-200
         p-[1px]
         rounded-[20px]
-        shadow-card">
+        shadow-card"
+        >
           <div
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450
-          }}
-          className="
+            options={{
+              max: 45,
+              scale: 1,
+              speed: 450,
+            }}
+            className="
           bg-tertiary
           rounded-[20px]
           py-5
           px-12
-          min-h-[280px]"
+          min-h-[280px]
+          flex
+          justify-even
+          items-center
+          flex-col"
           >
-            <p>hello world!</p>
+            <img
+              src={icon}
+              alt={title}
+              className="mt-10 w-16 h-16 object-contain"
+            />
+            <h3 className="
+            mt-5
+            text-white
+            text-[20px]
+            font-bold
+            text-center"
+            >
+              {title}
+            </h3>
           </div>
         </motion.div>
       </Tilt>
