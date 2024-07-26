@@ -79,8 +79,7 @@ const Hero = () => {
             </h1>
             <p
               className={`${styles.heroSubText}
-          mt-2
-          text-black`}
+          mt-2`}
             >
               I am a front-end developer
               <br className="sm:block hidden" />

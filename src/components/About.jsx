@@ -74,27 +74,29 @@ const About = () => {
       {/****************************************
        *         INTRO / SUBHEADER ANIM.       *
        ****************************************/}
-      <motion.div variants={textVariant()} className="mt-10">
+      <motion.div variants={textVariant()} className="mt-10 inline-block">
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>
-          Get To Know Me!
-          <div
-            className="
+        <h2 className={styles.sectionHeadText}>Get To Know Me!</h2>
+      </motion.div>
+
+      <motion.div
+        variants={textVariant()}
+        className="
+          float-right
+          mr-20
+          ml-20
           flex
-          flex-wrap
-          mx-auto"
-          >
-            <img
-              src={mister}
-              className="
+          flex-wrap"
+      >
+        <img
+          src={mister}
+          className="
           w-[200]
           h-[200px]
           mx-auto
           rounded-full
           object-contain"
-            />
-          </div>
-        </h2>
+        />
       </motion.div>
 
       {/****************************************
