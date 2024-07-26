@@ -1,3 +1,4 @@
+import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -66,7 +67,7 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText}
-             text-[black]`}
+              text-neutral-900`}
             >
               Hello! I'm
               <span

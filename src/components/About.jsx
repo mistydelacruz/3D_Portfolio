@@ -4,10 +4,12 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
+import { mister } from "../assets";
 
 {
   /****************************************
-   *         SKILL CARDS THAT TILTS       *
+   *         SERVICE CARD COMPONENT        *
    ****************************************/
 }
 const ServiceCard = ({ index, title, icon }) => {
@@ -49,7 +51,8 @@ const ServiceCard = ({ index, title, icon }) => {
               alt={title}
               className="mt-10 w-16 h-16 object-contain"
             />
-            <h3 className="
+            <h3
+              className="
             mt-5
             text-white
             text-[20px]
@@ -68,11 +71,35 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
+      {/****************************************
+       *         INTRO / SUBHEADER ANIM.       *
+       ****************************************/}
       <motion.div variants={textVariant()} className="mt-10">
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Get To Know Me!</h2>
+        <h2 className={styles.sectionHeadText}>
+          Get To Know Me!
+          <div
+            className="
+          flex
+          flex-wrap
+          mx-auto"
+          >
+            <img
+              src={mister}
+              className="
+          w-[200]
+          h-[200px]
+          mx-auto
+          rounded-full
+          object-contain"
+            />
+          </div>
+        </h2>
       </motion.div>
 
+      {/****************************************
+       *         PARAGRAPH CONTENT ANIM.       *
+       ****************************************/}
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="
@@ -82,21 +109,25 @@ const About = () => {
       max-w-3xl
       leading-[30px]"
       >
-        Lorem ipsum odor amet, consectetuer adipiscing elit. Ultricies orci eget
-        accumsan accumsan a nullam adipiscing faucibus. Platea cras proin et ut
-        facilisi velit platea adipiscing dignissim. Suscipit cursus vestibulum
-        pellentesque adipiscing; senectus inceptos efficitur fringilla quis.
-        Orci leo ridiculus risus est quis porta. Urna nec ad platea curabitur id
-        venenatis libero potenti fusce. Semper nascetur sodales id taciti
-        molestie a sollicitudin.
+        Hello! My name is Misty Dela Cruz and I am a recent Applied Business
+        Information Technolog (ABIT) graduate from UH Maui College with
+        experience in robotics, web development, and UX/UI design. I am
+        currently interning at ARL on Maui where I had the opportunity to
+        research trending design systems, utilized their principles and
+        frameworks to a basic support page, and collaborated in designing
+        different use case flows for an application.
       </motion.p>
 
+      {/****************************************
+       *             SERVICE CARDS             *
+       ****************************************/}
       <div
         className="
       mt-20
       flex
       flex-wrap
-      gap-10"
+      gap-10
+      justify-center"
       >
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
@@ -106,4 +137,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionWrapper(About, "about");
