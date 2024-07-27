@@ -111,7 +111,7 @@ const About = () => {
       max-w-3xl
       leading-[30px]"
       >
-        Hello! My name is Misty Dela Cruz and I am a recent Applied Business
+        Aloha! My name is Misty Dela Cruz and I am a recent Applied Business
         Information Technolog (ABIT) graduate from UH Maui College with
         experience in robotics, web development, and UX/UI design. I am
         currently interning at ARL on Maui where I had the opportunity to

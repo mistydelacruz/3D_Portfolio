@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import shin from "./shin.png";
 import mister from "./mister.jpg"
+
 import backend from "./backend.png";
 import researcher from "./researcher.png";
 import web from "./web.png";
@@ -26,6 +27,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bluethunder from "./company/2443.jpg";
+import regal from "./company/regal.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +61,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  bluethunder,
+  regal,
   carrent,
   jobit,
   tripguide,
