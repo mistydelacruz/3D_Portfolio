@@ -91,7 +91,7 @@ const About = () => {
         <img
           src={mister}
           className="
-          w-[200]
+          w-[200px]
           h-[200px]
           mx-auto
           rounded-full

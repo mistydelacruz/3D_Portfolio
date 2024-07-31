@@ -15,6 +15,7 @@ import {
   meta,
   bluethunder,
   regal,
+  p3i,
   carrent,
   jobit,
   tripguide,
@@ -30,6 +31,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -66,17 +71,10 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -84,10 +82,6 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -101,10 +95,6 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
@@ -115,7 +105,9 @@ const experiences = [
     iconBg: "white",
     date: "Aug 2015 - May 2019",
     points: [
-      "Will add more later",
+      "Manage and oversee my fellow programmers",
+      "Communicate to different departments regarding the build, status, and the functional mechanisms of the robot",
+      "Combine all robot components code into one master code for competition use",
     ],
   },
   {
@@ -125,17 +117,24 @@ const experiences = [
     iconBg: "white",
     date: "Jun 2019 - Present",
     points: [
-      "Will add more later",
+      "Manage and oversee Regal floorstaff",
+      "Manage cashflow during business hours",
+      "Handle administrative duties",
+      "Enforce Regal poclicies",
+      "Keep up-to-date with training and regulations",
     ],
   },
   {
     title: "P3I Intern",
-    company_name: "ARL",
-    icon: meta,
+    company_name: "Pacific Intelligence Innovation Initiative (P3I) ARL",
+    icon: p3i,
     iconBg: "white",
     date: "Dec 2023 - Present",
     points: [
-      "Will add more later",
+      "Researched and reported on different design systems for web development",
+      "Utilized React to use design system components to existing or new projects",
+      "Rsearched into different 3D Javascript libraries for their different benefits and disadvantages",
+
     ],
   },
 ];

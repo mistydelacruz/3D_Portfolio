@@ -29,6 +29,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import bluethunder from "./company/2443.jpg";
 import regal from "./company/regal.png";
+import p3i from "./company/p3i.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -63,6 +64,7 @@ export {
   tesla,
   bluethunder,
   regal,
+  p3i,
   carrent,
   jobit,
   tripguide,
