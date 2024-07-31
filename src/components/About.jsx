@@ -9,7 +9,7 @@ import { mister } from "../assets";
 
 {
   /****************************************
-   *         SERVICE CARD COMPONENT        *
+   *         SERVICE CARD COMPONENT       *
    ****************************************/
 }
 const ServiceCard = ({ index, title, icon }) => {
@@ -68,6 +68,11 @@ const ServiceCard = ({ index, title, icon }) => {
   );
 };
 
+{
+  /****************************************
+   *            ABOUT COMPONENT           *
+   ****************************************/
+}
 const About = () => {
   return (
     <>

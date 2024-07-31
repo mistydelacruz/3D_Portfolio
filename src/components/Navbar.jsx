@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { shin, logo, menu, close } from "../assets";
+import { logo, menu, close } from "../assets";
 
 /***************************************
  *           NAVBAR COMPONENT          *
@@ -54,7 +54,7 @@ const Navbar = () => {
             }}
           >
             <img
-              src={shin}
+              src={logo}
               alt="logo"
               className="rounded-full w-9 h-9 object-contain"
             />
