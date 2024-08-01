@@ -1,9 +1,9 @@
 # Misty's 3D Portfolio 🤓
 
-![image](https://github.com/user-attachments/assets/efbd2706-752c-46bc-961e-3291888c891e)
+![image](https://github.com/user-attachments/assets/d81641ee-39dc-4ae4-a374-b9db63d91ab7)
 
 ## Overview
-This project is my engineering portfolio which showcases all of my works, skills, and contact information with an added bonus of 3D elements to wrap it all up. I used React + Vite, TailWindCSS, and watched [JavaScript Mastery](https://youtu.be/0fYi8SGA20k?si=-yczXu4qSn2Av2Sx&t=2811) to jumpstart the basic structure of my website with a beginner guide/tutorial into 3.js and React Fiber. 
+This project is my engineering portfolio which showcases all of my works, skills, and contact information with an added bonus of 3D elements to wrap it all up. I used React + Vite, TailWindCSS, and watched [JavaScript Mastery](https://youtu.be/0fYi8SGA20k?si=-yczXu4qSn2Av2Sx&t=2811) to jumpstart the basic structure of my website with a beginner guide/tutorial into three.js and React Fiber. 
  
 ## Prerequisites
 - [React + Vite](https://vitejs.dev/guide/)
@@ -62,3 +62,9 @@ npm run dev
 5. Copy the Local URL:
 
 In the terminal there should be a URL that you can use to host the website using your local browser. The URL should look something like, `http://localhost:3000`.
+
+## 3D Model Used
+Model Information:
+- TItle:	Autumn Kitten
+- Source:	https://sketchfab.com/3d-models/autumn-kitten-2e474c8853174d17994504c19902bf01
+- Author:	LiliumLetifer (https://sketchfab.com/LiliumLetifer)
