@@ -93,7 +93,7 @@ const Hero = () => {
         {/****************************************
          *         COMPUTER CANVAS RENDER        *
          ****************************************/}
-        <ComputersCanvas />
+        {/* <ComputersCanvas /> */}
 
         {/****************************************
          *         SCROLL INDICATOR ANIM.        *
@@ -121,6 +121,9 @@ const Hero = () => {
           items-start
           p-2"
             >
+              {/****************************************
+               *  ANIM. CIRCLE THAT INFINITELY TOGGLES *
+               ****************************************/}
               <motion.div
                 animate={{
                   y: [0, 24, 0],
