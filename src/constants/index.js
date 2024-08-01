@@ -21,6 +21,8 @@ import {
   tripguide,
   threejs,
   researcher,
+  intel,
+  carousel,
 } from "../assets";
 
 export const navLinks = [
@@ -168,7 +170,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Intel Static Support Page",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -185,11 +187,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: intel,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Image Carousel",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -206,7 +208,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: carousel,
     source_code_link: "https://github.com/",
   },
   {

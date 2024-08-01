@@ -42,7 +42,7 @@ const ProjectCard = ({
               className="
             w-full
             h-full
-            object-cover
+            object-fill
             rounded-2xl"
             />
           </div>
