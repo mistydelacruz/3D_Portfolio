@@ -19,8 +19,8 @@ const Kitten = ({ isMobile }) => {
         />
         <primitive
           object={kittens.scene}
-          scale={isMobile ? 5 : 4}
-          position={isMobile ? [0, -2, -4.5] : [0, -2.5, -5]}
+          scale={isMobile ? 2 : 5}
+          position={isMobile ? [0, -2.5, -0.5] : [0, -2.5, -5]}
           rotation={[-0.01, -1, -0.1]}
         />
       </mesh>
