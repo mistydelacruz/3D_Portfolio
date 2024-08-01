@@ -101,7 +101,7 @@ const Experience = () => {
   return (
     <>
       {/****************************************
-       *           EXP. SECTION ANIM.          *
+       *         INTRO / SUBHEADER ANIM.       *
        ****************************************/}
       <motion.div variants={textVariant()} className="mt-10 inline-block">
         <p className={styles.sectionSubText}>What I've Done So Far</p>

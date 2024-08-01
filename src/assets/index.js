@@ -34,6 +34,8 @@ import p3i from "./company/p3i.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import intel from "./intel.png";
+import carousel from "./carousel.png";
 
 export {
   logo,
@@ -68,4 +70,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  intel,
+  carousel,
 };
