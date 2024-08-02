@@ -7,16 +7,16 @@ const Kitten = ({ isMobile }) => {
   const kittens = useGLTF("./autumn_kitten/scene.gltf");
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
+      <hemisphereLight intensity={5} groundColor="black" />
+      <spotLight
+        position={[-20, 50, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize={1024}
+      />
       <mesh>
-        <hemisphereLight intensity={5} groundColor="black" />
-        <spotLight
-          position={[-20, 50, 10]}
-          angle={0.12}
-          penumbra={1}
-          intensity={1}
-          castShadow
-          shadow-mapSize={1024}
-        />
         <primitive
           object={kittens.scene}
           scale={isMobile ? 2 : 5}

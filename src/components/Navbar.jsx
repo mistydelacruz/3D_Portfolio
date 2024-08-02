@@ -66,7 +66,7 @@ const Navbar = () => {
             cursor-pointer flex"
             >
               Misty Dela Cruz &nbsp;
-              <span className="sm:block hidden">| Web Dev. & Designer</span>
+              <span className="sm:block hidden">&#128150; Web Dev. & Designer</span>
             </p>
           </Link>
 

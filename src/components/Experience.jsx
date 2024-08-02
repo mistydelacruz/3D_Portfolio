@@ -9,10 +9,11 @@ import { textVariant } from "../utils/motion";
 
 {
   /****************************************
-   *           EXP. CARD CONSTANT         *
+   *          EXP. CARD COMPONENT         *
+   ****************************************
+   * Will elaborate later
    ****************************************/
 }
-
 const ExperienceCard = ({ experience }) => {
   return (
     <>
@@ -76,7 +77,7 @@ const ExperienceCard = ({ experience }) => {
         >
           {experience.points.map((point, index) => (
             <li
-              key={`experience-point-$(index)`}
+              key={`experience-point-${index}`}
               className="
           text-white-100
           text-[14px]
@@ -94,7 +95,9 @@ const ExperienceCard = ({ experience }) => {
 
 {
   /****************************************
-   *             EXP. CONSTANT            *
+   *             EXP. COMPONENT           *
+   ****************************************
+   * Will elaborate later
    ****************************************/
 }
 const Experience = () => {
@@ -119,7 +122,10 @@ const Experience = () => {
       >
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
+            <ExperienceCard
+              key={`experience-${index}`}
+              experience={experience}
+            />
           ))}
         </VerticalTimeline>
       </div>
