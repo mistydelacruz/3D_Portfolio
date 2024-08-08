@@ -24,7 +24,7 @@ const ProjectCard = ({
   return (
     <>
       {/****************************************
-       *            PROJECT CARD ANIM.         *
+       *           PROJECT CARD ANIM.          *
        ****************************************/}
       <motion.div variants={fadeIn("up", "spring", index * 0.75, 0.75)}>
         <Tilt

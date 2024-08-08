@@ -92,7 +92,7 @@ const Hero = () => {
         </div>
 
         {/****************************************
-         *         COMPUTER CANVAS RENDER        *
+         *         KITTEN CANVAS RENDER          *
          ****************************************/}
         {/* <ComputersCanvas /> */}
         <KittenCanvas />
@@ -103,7 +103,7 @@ const Hero = () => {
         <div
           className="
       absolute
-      xs: bottom-10
+      xs: bottom-3
       bottom-5
       w-full
       flex
@@ -124,7 +124,7 @@ const Hero = () => {
           p-2"
             >
               {/****************************************
-               *  ANIM. CIRCLE THAT INFINITELY TOGGLES *
+               *  CIRCLE ANIM. THAT INFINITELY TOGGLES *
                ****************************************/}
               <motion.div
                 animate={{

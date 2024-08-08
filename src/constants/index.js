@@ -1,5 +1,7 @@
 import {
   web,
+  gmail,
+  linkedin,
   javascript,
   typescript,
   html,
@@ -171,13 +173,19 @@ const experiences = [
 
 const contacts = [
   {
-    icon: figma,
+    name: "email",
+    icon: gmail,
+    source_code_link: "mailto:misty.dela.cruz1@gmail.com",
   },
   {
+    name: "github",
     icon: github,
+    source_code_link: "https://github.com/mistydelacruz",
   },
   {
-    icon: git,
+    name: "linkedin",
+    icon: linkedin,
+    source_code_link: "https://www.linkedin.com/in/misty-dela-cruz/",
   },
 ];
 

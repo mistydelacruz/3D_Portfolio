@@ -17,6 +17,9 @@ import { mister } from "../assets";
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <>
+      {/****************************************
+       *           SERVICE CARD ANIM.          *
+       ****************************************/}
       <Tilt
         className="
     xs:w-[250px]
@@ -28,8 +31,7 @@ const ServiceCard = ({ index, title, icon }) => {
         w-full
         bg-gradient-to-r from-blue-200 to-cyan-200
         p-[1px]
-        rounded-[20px]
-        shadow-card"
+        rounded-[20px]"
         >
           <div
             options={{
@@ -127,6 +129,23 @@ const About = () => {
         research trending design systems, utilized their principles and
         frameworks to a basic support page, and collaborated in designing
         different use case flows for an application.
+        <br></br>
+        <span className="
+        justify-center
+        items-center
+        flex-wrap
+        flex
+        mx-auto
+        mt-5
+        w-[250px]
+        p-1
+        text-white
+        text-[25px]
+        bg-neutral-900
+        rounded-md"
+        >
+          <a href="https://drive.google.com/file/d/1Jb0NmlRd4CujunwUDzRq-KglfRKugT_C/view?usp=sharing">Resume</a>
+        </span>
       </motion.p>
 
       {/****************************************
