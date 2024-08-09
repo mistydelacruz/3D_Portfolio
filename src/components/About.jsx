@@ -144,7 +144,7 @@ const About = () => {
         bg-neutral-900
         rounded-md"
         >
-          <a href="https://drive.google.com/file/d/1Jb0NmlRd4CujunwUDzRq-KglfRKugT_C/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/1Tnf6pH_c0xgO9pfmRU3RG3S-QpodAD_f/view?usp=sharing">Resume</a>
         </span>
       </motion.p>
 
