@@ -104,15 +104,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Programming Captain",
-    company_name: "Maui High School Robotics",
-    icon: bluethunder,
+    title: "P3I Intern",
+    company_name: "Pacific Intelligence Innovation Initiative (P3I) ARL",
+    icon: p3i,
     iconBg: "white",
-    date: "Aug 2015 - May 2019",
+    date: "Dec 2023 - Present",
     points: [
-      "Manage and oversee my fellow programmers",
-      "Communicate to different departments regarding the build, status, and the functional mechanisms of the robot",
-      "Combine all robot components code into one master code for competition use",
+      "Researched and reported on different design systems for web development",
+      "Utilized React to use design system components to existing or new projects",
+      "Rsearched into different 3D Javascript libraries for their different benefits and disadvantages",
     ],
   },
   {
@@ -130,16 +130,15 @@ const experiences = [
     ],
   },
   {
-    title: "P3I Intern",
-    company_name: "Pacific Intelligence Innovation Initiative (P3I) ARL",
-    icon: p3i,
+    title: "Programming Captain",
+    company_name: "Maui High School Robotics",
+    icon: bluethunder,
     iconBg: "white",
-    date: "Dec 2023 - Present",
+    date: "Aug 2015 - May 2019",
     points: [
-      "Researched and reported on different design systems for web development",
-      "Utilized React to use design system components to existing or new projects",
-      "Rsearched into different 3D Javascript libraries for their different benefits and disadvantages",
-
+      "Manage and oversee my fellow programmers",
+      "Communicate to different departments regarding the build, status, and the functional mechanisms of the robot",
+      "Combine all robot components code into one master code for competition use",
     ],
   },
 ];
@@ -201,7 +200,8 @@ const projects = [
       },
     ],
     image: intel,
-    source_code_link: "https://github.com/mistydelacruz/Mat_Design_Support_Page",
+    source_code_link:
+      "https://github.com/mistydelacruz/Mat_Design_Support_Page",
   },
   {
     name: "Login Image Carousel",

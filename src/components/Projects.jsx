@@ -47,15 +47,14 @@ const ProjectCard = ({
             className="
           relative
           w-full
-          h-[230px]"
+          h-auto"
           >
             <img
               src={image}
               alt={name}
               className="
-            w-full
-            h-full
-            object-fill
+            w-auto
+            h-auto
             rounded-2xl"
             />
 
