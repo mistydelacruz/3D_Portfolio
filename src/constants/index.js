@@ -25,6 +25,9 @@ import {
   researcher,
   intel,
   carousel,
+  portfolio,
+  wildwatch,
+  imagine,
   github,
 } from "../assets";
 
@@ -108,7 +111,7 @@ const experiences = [
     company_name: "Pacific Intelligence Innovation Initiative (P3I) ARL",
     icon: p3i,
     iconBg: "white",
-    date: "Dec 2023 - Present",
+    date: "Dec 2023 - Aug 2024",
     points: [
       "Researched and reported on different design systems for web development",
       "Utilized React to use design system components to existing or new projects",
@@ -190,6 +193,49 @@ const contacts = [
 
 const projects = [
   {
+    name: "3D Portfolio",
+    description:
+      "This project is my engineering portfolio which showcases all of my works, skills, and contact information with an added bonus of 3D elements to wrap it all up.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "3.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Framer",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "green-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/mistydelacruz/3D_Portfolio",
+  },
+  {
+    name: "Imagine Figma User Flow",
+    description:
+      "Collaborated with my ARL mentors with their Imagine project by creating and simulating several user flow cases in the authentication process in Figma.",
+    tags: [
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imagine,
+    source_code_link:
+      "https://github.com/mistydelacruz/Imagine_Figma_User_Flow",
+  },
+  {
     name: "Intel Static Support Page",
     description:
       "This project involves using the Material Design UI and creating a barebones support page for a company (Intel). Customized the Material Design components to my preferences.",
@@ -215,6 +261,19 @@ const projects = [
     ],
     image: carousel,
     source_code_link: "https://github.com/mistydelacruz/Carousel",
+  },
+  {
+    name: "WildWatch Website Figma Prototype",
+    description:
+      "Designed the prototype of our ABIT business, WildWatch, in Figma with user interactivity and designed different user flows.",
+    tags: [
+      {
+        name: "Figma",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: wildwatch,
+    source_code_link: "https://github.com/mistydelacruz/WildWatch_Website_Figma_Prototype",
   },
 ];
 

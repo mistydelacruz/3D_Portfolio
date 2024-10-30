@@ -38,6 +38,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import intel from "./intel.png";
 import carousel from "./carousel.png";
+import portfolio from "./3dportfolio.png";
+import wildwatch from "./wildwatch.png";
+import imagine from "./imagine.png";
 
 export {
   logo,
@@ -76,4 +79,7 @@ export {
   tripguide,
   intel,
   carousel,
+  portfolio,
+  wildwatch,
+  imagine
 };
