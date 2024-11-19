@@ -122,15 +122,16 @@ const About = () => {
       max-w-3xl
       leading-[30px]"
       >
-        Aloha! My name is Misty Dela Cruz and I am a recent Applied Business
-        Information Technolog (ABIT) graduate from UH Maui College with
-        experience in robotics, web development, and UX/UI design. I am
-        currently interning at ARL on Maui where I had the opportunity to
-        research trending design systems, utilized their principles and
-        frameworks to a basic support page, and collaborated in designing
-        different use case flows for an application.
+        Aloha! My name is Misty Dela Cruz and I am a recent ABIT (Applied
+        Business Information Technology) graduate from UH Maui College with
+        experience in robotics, web development, and UX/UI design. I recently
+        interned at ARL (Applied Research Laboratory) on Maui where I had the
+        opportunity to research trending design systems, utilized their
+        principles and frameworks to a basic support page, and collaborated in
+        designing different use case flows for an application.
         <br></br>
-        <span className="
+        <span
+          className="
         justify-center
         items-center
         flex-wrap
@@ -144,7 +145,9 @@ const About = () => {
         bg-neutral-900
         rounded-md"
         >
-          <a href="https://drive.google.com/file/d/1jY6XE-VDzByV3_Yfz7FXm3dZ4Uc8O9ok/view?usp=sharing">Resume</a>
+          <a href="https://drive.google.com/file/d/1jY6XE-VDzByV3_Yfz7FXm3dZ4Uc8O9ok/view?usp=sharing">
+            Resume
+          </a>
         </span>
       </motion.p>
 
